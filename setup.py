@@ -20,10 +20,11 @@ setup(
     ],
     install_requires=[
         'growl-py',
+        'gntp',
         ],
     entry_points={
         'console_scripts': [
-            'regrowl = regrowl.cli:main'
+            'regrowl = cli:main'
         ]
     }
 )

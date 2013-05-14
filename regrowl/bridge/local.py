@@ -10,7 +10,7 @@ http://pypi.python.org/pypi/growl-py/0.0.7
 
 from __future__ import absolute_import
 
-import Growl
+from gntp import notifier as Growl
 import logging
 
 from regrowl.regrowler import ReGrowler
